@@ -14,20 +14,20 @@ int main() {
   cout << endl << "Hello, " << clientName << "! Please enter your gender: ";
   cin >> clientGender; // assign user input to clientGender variable
   
-  switch(clientGender) {
+  switch(clientGender) { // get the clientGender variable, and check the case that equal with it.
     case 'm':
     case 'M':
-      cout << emdl << "You are eligible for a slice of pizza";
+      cout << endl << "You are eligible for a slice of pizza";
       break;
     case 'w':
     case 'W':
       cout << endl << "You are eligible for a branded cosmestic";
       break;
     default:
-      cout << "Wrong code, forcefully close the program";
+      cout << endl << "Wrong code, forcefully close the program";
       break;
   }
   
-  return 0; // indicate that the program is succesfully run
+  return 0; // indicate that the program ended succesfully
   
 }
