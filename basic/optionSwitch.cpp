@@ -1,6 +1,7 @@
 // A program to show an example to use switch statement
 // Author: @HyGlobalHD <https://github.com/HyGlobalHD>
 #include<iostream>
+#include<string>
 using namespace std;
 
 int main() {
