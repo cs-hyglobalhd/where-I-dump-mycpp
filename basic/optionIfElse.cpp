@@ -16,10 +16,10 @@ int main() {
   
   if(clientAge < 18) { // indicate that if the clientAge is less than 18, continue with code
     cout << "You are underage to work with us, try again next time!";
-  }else {
+  }else { // run if the logic if is not eligible
     cout << "You are eligible to have an interview with us!";
   }
   
-  return 0; // indicate that the program is succesfully run
+  return 0; // indicate that the program ended succesfully
   
 }
