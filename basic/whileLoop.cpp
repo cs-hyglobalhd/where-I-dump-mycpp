@@ -13,7 +13,7 @@ int main() {
   
   while(num2 > num) { // looping when the statement is true based on the LOGIC statement
     cout << endl << num;
-    num++; // increase the variable num by 1 // a must so that the looping will end
+    num++; // increment // increase the variable num by 1 // a must so that the looping will end
   }
   
   return 0; // idicated that the program end successfull
