@@ -1,4 +1,4 @@
-// This program is inteded to print out the word "Hello World" in the command prompt
+// This program is intended to print out the word "Hello World" in the command prompt
 // Author: @HyGlobalHD <https://github.com/HyGlobalHD>
 #include<iostream>
 using namespace std;
