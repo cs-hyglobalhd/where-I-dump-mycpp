@@ -12,7 +12,7 @@ int main() {
   num2 = num + 10; // assign num+10 to num2
   
   while(num2 > num) { // looping when the statement is true based on the LOGIC statement
-    cout << endl << num;
+    cout << endl << num; // will print the current num variable value by looping
     num++; // increment // increase the variable num by 1 // a must so that the looping will end
   }
   
