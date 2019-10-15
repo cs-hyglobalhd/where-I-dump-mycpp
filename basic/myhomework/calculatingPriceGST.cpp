@@ -22,17 +22,17 @@ int main() {
         if(quantity >= 10 && quantity <= 50){ // check if quantity is more/equals to 10 AND quantity is less/equals to 50 // continue if both condition are met
             price = 2.0 * quantity; // assign 2.0*quantity to price variable
             priceGST = price* GST; // assign price*GST to priceGST variable
-            afterGST = price - priceGST; // assign price-priceGST to afterGST variable
+            afterGST = price + priceGST; // assign price+priceGST to afterGST variable
             cout << "The total GST is RM " << priceGST << ", and the price after GST is RM " << afterGST << endl; // prompt the output
         }else if(quantity >= 51 && quantity <= 100) { // check if quantity is more/equals to 51 AND quantity is less/equals to 100 // continue if both condition are met
             price = 1.5 * quantity; // assign 2.0*quantity to price variable
             priceGST = price* GST; // assign price*GST to priceGST variable
-            afterGST = price - priceGST; // assign price-priceGST to afterGST variable
+            afterGST = price + priceGST; // assign price+priceGST to afterGST variable
             cout << "The total GST is RM " << priceGST << ", and the price after GST is RM " << afterGST << endl; // prompt the output
         }else if(quantity > 100) { // check if quantity is more than 100 // continue if condition are met
             price = 1.0 * quantity; // assign 2.0*quantity to price variable
             priceGST = price* GST; // assign price*GST to priceGST variable
-            afterGST = price - priceGST; // assign price-priceGST to afterGST variable
+            afterGST = price + priceGST; // assign price+priceGST to afterGST variable
             cout << "The total GST is RM " << priceGST << ", and the price after GST is RM " << afterGST << endl; // prompt the output
         }else {
             cout << "Fails to meet the minimum quantity."; // prompt condition failed to met
@@ -43,12 +43,12 @@ int main() {
         if(quantity >= 20 && quantity <= 50) { // check if quantity is more/equals to 20 AND quantity is less/equals to 50 // continue if both condition are met
             price = 5.0 * quantity; // assign 2.0*quantity to price variable
             priceGST = price* GST; // assign price*GST to priceGST variable
-            afterGST = price - priceGST; // assign price-priceGST to afterGST variable
+            afterGST = price + priceGST; // assign price+priceGST to afterGST variable
             cout << "The total GST is RM " << priceGST << ", and the price after GST is RM " << afterGST << endl; // prompt the output
         }else if(quantity > 50) { // check if quantity is more than 50 // continue if condition are met
             price = 4.0 * quantity; // assign 2.0*quantity to price variable
             priceGST = price* GST; // assign price*GST to priceGST variable
-            afterGST = price - priceGST; // assign price-priceGST to afterGST variable
+            afterGST = price + priceGST; // assign price+priceGST to afterGST variable
             cout << "The total GST is RM " << priceGST << ", and the price after GST is RM " << afterGST << endl; // prompt the output
         }else {
             cout << "Fails to meet the minimum quantity."; // prompt did not met requirement
