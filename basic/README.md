@@ -6,3 +6,5 @@ An example program of mine
 3. [Basic: option Switch Program](https://github.com/cs-hyglobalhd/where-I-dump-mycpp/blob/master/basic/optionSwitch.cpp)
 4. [Basic: while-Loop Program](https://github.com/cs-hyglobalhd/where-I-dump-mycpp/blob/master/basic/whileLoop.cpp)
 5. [Basic: for-Loop Program](https://github.com/cs-hyglobalhd/where-I-dump-mycpp/blob/master/basic/forLoop.cpp)
+6. [Basic: Create-Write-Read File Program](https://github.com/cs-hyglobalhd/where-I-dump-mycpp/blob/HyGlobalHD-patch-1/basic/readWrite.cpp)
+
