@@ -30,7 +30,7 @@ int main() {
 	cin >> tyreQuantity;
 
 
-	if (tyreQuantity >= 2 && tyreQuantity <= 4) {
+	if (tyreQuantity == 2 || tyreQuantity == 4) {
 		if (serviceCode == "TC" || serviceCode == "tc") {
 			serviceDecs = "Tyre Change";
 			if (tyreBrand == 'B' || tyreBrand == 'b') {
