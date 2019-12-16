@@ -40,7 +40,7 @@ double Discount(char categories, double totalPrice) {
 int main() {
 	int quant;
 	char categ, request;
-	double price;
+	double price, priceAfter;
 	
 	cout << "Do you want to start the program?\n(Press Y for yes, Press N to terminated the program): ";
 	cin >> request;
@@ -59,14 +59,14 @@ int main() {
 		cin >> quant;
 		
 		price = Price(categ, quant);
-		price = Discount(categ, price);
+		priceAfter = price - Discount(categ, price);
 		
 		cout << endl;
 		cout << setprecision(2) << fixed;
 		cout << "************** RECEIPT **************" << endl;
 		cout << "Quantity\t\tPrice" << endl;
 		cout << "---------\t\t---------" << endl;
-		cout << quant << "\t\t\t" << "RM" << price << endl;
+		cout << quant << "\t\t\t" << "RM" << priceAfter << endl;
 		cout << endl;
 		cout << "Thank you. Please come again." << endl;
 		cout << "*************************************";
