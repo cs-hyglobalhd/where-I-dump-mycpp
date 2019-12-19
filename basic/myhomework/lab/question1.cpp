@@ -74,12 +74,13 @@ int main() {
 		cout << endl << endl;
 		cout << "Do you want to continue the program?\n(Press Y for yes, Press N to terminated the program): ";
 		cin >> request;
-		if(tolower(request) == 'n') continue; // end the looping
+		
 		while(tolower(request) != 'y' && tolower(request) != 'n') { // incase of an invalid input given
 			cout << endl << "Invalid input! Please enter correctly!" << endl;
 			cout << "Do you want to continue the program?\n(Press Y for yes, Press N to terminated the program): ";
 			cin >> request;
 		}
+                if(tolower(request) == 'n') continue; // end the looping
 	}
 	cout << endl << "Program terminated.";
 	return 0;
